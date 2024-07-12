@@ -42,6 +42,7 @@ public static class Program
                     Console.Clear();
                     break;
                 case "2":
+
                     Console.Write("Enter Teacher Name: ");
                     var tName = Console.ReadLine();
                     schoolService.AddTeacher(tName);
