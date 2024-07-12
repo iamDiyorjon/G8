@@ -13,13 +13,18 @@ public static class Program
             Console.WriteLine("----Hello tashkent----");
             Console.WriteLine("1. Add Specialist");
             Console.WriteLine("2. Add Teacher");
+
             Console.WriteLine("3. Update Specialist");
+
             Console.WriteLine("4. Update Teacher");
             Console.WriteLine("5. Delete Specialist");
+
+
             Console.WriteLine("6. Delete Teacher");
             Console.WriteLine("7. Attach Specialist to Teacher");
             Console.WriteLine("8. List Specialists");
             Console.WriteLine("9. List Teachers");
+
             Console.WriteLine("10. Get Full List");
             Console.WriteLine("11. Exit");
             Console.Write("Choose an option: ");
@@ -38,6 +43,7 @@ public static class Program
                     Console.Clear();
                     break;
                 case "2":
+
                     Console.Write("Enter Teacher Name: ");
                     var tName = Console.ReadLine();
                     schoolService.AddTeacher(tName);
