@@ -1,16 +1,15 @@
-﻿namespace cs
+﻿namespace cs;
+
+public class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.Write("sonlarni kiriting: ");
-            string str = Console.ReadLine();
-            Console.WriteLine(str);
-            Console.WriteLine(str);
-            Console.WriteLine(str);
-            Console.WriteLine(str);
-            Console.WriteLine(str);
-        }
+        Console.Write("sonlarni kiriting: ");
+        string str = Console.ReadLine();
+        Console.WriteLine(str);
+        Console.WriteLine(str);
+        Console.WriteLine(str);
+        Console.WriteLine(str);
+        Console.WriteLine(str);
     }
 }
