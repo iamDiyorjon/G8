@@ -21,6 +21,7 @@ public static class Program
             Console.WriteLine("9. List Teachers");
             Console.WriteLine("10. Get Full List");
             Console.WriteLine("11. Exit");
+
             Console.Write("Choose an option: ");
             var choice = Console.ReadLine();
 
