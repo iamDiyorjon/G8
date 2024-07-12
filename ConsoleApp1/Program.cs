@@ -10,8 +10,8 @@ public static class Program
 
         while (!exit)
         {
-            Console.WriteLine("1. Add Specialist");
-            Console.WriteLine("2. Add Teacher");
+            Console.WriteLine("1.1. Add Specialist");
+            Console.WriteLine("2.1. Add Teacher");
             Console.WriteLine("3. Update Specialist");
             Console.WriteLine("4. Update Teacher");
             Console.WriteLine("5. Delete Specialist");
