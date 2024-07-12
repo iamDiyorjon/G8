@@ -17,6 +17,8 @@ public static class Program
 
             Console.WriteLine("4. Update Teacher");
             Console.WriteLine("5. Delete Specialist");
+
+
             Console.WriteLine("6. Delete Teacher");
             Console.WriteLine("7. Attach Specialist to Teacher");
             Console.WriteLine("8. List Specialists");
