@@ -12,7 +12,9 @@ public static class Program
         {
             Console.WriteLine("1. Add Specialist");
             Console.WriteLine("2. Add Teacher");
+
             Console.WriteLine("3. Update Specialist");
+
             Console.WriteLine("4. Update Teacher");
             Console.WriteLine("5. Delete Specialist");
             Console.WriteLine("6. Delete Teacher");
