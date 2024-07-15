@@ -7,10 +7,10 @@ public static class Program
     {
         var schoolService = new SchoolService();
         bool exit = false;
+            Console.WriteLine("Welcome");
 
         while (!exit)
         {
-            Console.WriteLine("");
             Console.WriteLine("1. Add Specialist");
             Console.WriteLine("2. Add Teacher");
             Console.WriteLine("3. Update Specialist");
